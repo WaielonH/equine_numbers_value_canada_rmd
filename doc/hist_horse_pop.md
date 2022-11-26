@@ -31,7 +31,11 @@ analysis and create this report can be found here:
 
 ## Results
 
-![](hist_horse_pop_files/figure-gfm/plot%20horses-1.png)<!-- -->
+![Figure 1. Changes in horse populations in different provinces in
+Canada through
+time](hist_horse_pop_files/figure-gfm/plot%20horses-1.png) Figure 1.
+Changes in horse populations in different provinces in Canada from
+1940-1072
 
 We can see from the visualisation above that Ontario, Saskatchewan and
 Alberta have had the highest horse populations in Canada. All provinces
@@ -44,20 +48,127 @@ time period visualised above to further support this hypothesis.
 Next we look at the range of the number horses for each provinces at any
 time point between 1940 - 1972:
 
-| Province             | Maximum | Minimum |
-|:---------------------|--------:|--------:|
-| Alberta              |  806200 |   87000 |
-| British Columbia     |   65200 |   22500 |
-| Manitoba             |  370800 |   31000 |
-| New Brunswick        |   71000 |    3200 |
-| Nova Scotia          |   64500 |    3600 |
-| Ontario              |  822300 |   75400 |
-| Prince Edward Island |   36700 |    2200 |
-| Quebec               |  378800 |   39000 |
-| Saskatchewan         | 1104300 |   58000 |
-
+<table>
+<caption>
 Table 1. Range of horse population (by province) in Canada
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+Province
+</th>
+<th style="text-align:right;">
+Maximum
+</th>
+<th style="text-align:right;">
+Minimum
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Alberta
+</td>
+<td style="text-align:right;">
+806200
+</td>
+<td style="text-align:right;">
+87000
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+British Columbia
+</td>
+<td style="text-align:right;">
+65200
+</td>
+<td style="text-align:right;">
+22500
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Manitoba
+</td>
+<td style="text-align:right;">
+370800
+</td>
+<td style="text-align:right;">
+31000
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+New Brunswick
+</td>
+<td style="text-align:right;">
+71000
+</td>
+<td style="text-align:right;">
+3200
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nova Scotia
+</td>
+<td style="text-align:right;">
+64500
+</td>
+<td style="text-align:right;">
+3600
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ontario
+</td>
+<td style="text-align:right;">
+822300
+</td>
+<td style="text-align:right;">
+75400
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Prince Edward Island
+</td>
+<td style="text-align:right;">
+36700
+</td>
+<td style="text-align:right;">
+2200
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Quebec
+</td>
+<td style="text-align:right;">
+378800
+</td>
+<td style="text-align:right;">
+39000
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Saskatchewan
+</td>
+<td style="text-align:right;">
+1104300
+</td>
+<td style="text-align:right;">
+58000
+</td>
+</tr>
+</tbody>
+</table>
 
 Below we zoom in and look at the province of Alberta:
 
-![](hist_horse_pop_files/figure-gfm/plot%20province-1.png)<!-- -->
+<img src="hist_horse_pop_files/figure-gfm/plot province-1.png" alt="Figure 2. Horse population over th years in the province of Alberta" width="100%" style="display: block; margin: auto;" />
+Figure 2. Horse population over th years in the province of Alberta

@@ -8,6 +8,8 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
+library(knitr)
+library(kableExtra)
 ```
 
 ## Aim
@@ -37,18 +39,20 @@ The R programming language and the following R packages were used to perform the
 
 ## Results
 
-```{r plot horses, fig.width=10, fig.height=3}
-horse_plot <- ggplot(horse_pop, aes(x = Ref_Date, y = Value)) +
-  geom_point() +
-  geom_line() +
-  xlab("Year") +
-  ylab("Number of horses") +
-  ggtitle("Historical number of horses per province in Canada") +
-  facet_grid(~GEO) +
-  scale_y_continuous(labels = scales::comma) +
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))
-horse_plot
+```{r plot horses, fig.width=10, fig.height=3, fig.cap="Figure 1. Changes in horse populations in different provinces in Canada through time"}
+# horse_plot <- ggplot(horse_pop, aes(x = Ref_Date, y = Value)) +
+#   geom_point() +
+#   geom_line() +
+#   xlab("Year") +
+#   ylab("Number of horses") +
+#   ggtitle("Historical number of horses per province in Canada") +
+#   facet_grid(~GEO) +
+#   scale_y_continuous(labels = scales::comma) +
+#   theme(axis.text.x = element_text(angle = 90, hjust = 1))
+# horse_plot
+knitr::include_graphics('hist_horse_pop_files/figure-gfm/plot horses-1.png')
 ```
+Figure 1. Changes in horse populations in different provinces in Canada from 1940-1072
 
 We can see from the visualisation above that Ontario, Saskatchewan and Alberta have had the highest horse populations in Canada. All provinces have had a decline in horse
 populations since 1940. This is likely due to the rebound of the Canadian automotive
@@ -69,7 +73,7 @@ knitr::kable(max_horses, caption = 'Table 1. Range of horse population (by provi
 
 Below we zoom in and look at the province of Alberta:
 
-```{r plot province, fig.width=5, fig.height=4}
+```{r plot province, fig.width=5, fig.height=4, fig.cap="Figure 2. Horse population over th years in the province of Alberta", out.width='100%', fig.align='center'}
 province_plot <- horse_pop %>% 
   filter(GEO == "Alberta") %>% 
   ggplot(aes(x = Ref_Date, y = Value)) +
@@ -83,3 +87,4 @@ province_plot <- horse_pop %>%
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
 province_plot
 ```
+Figure 2. Horse population over th years in the province of Alberta
