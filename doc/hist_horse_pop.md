@@ -5,6 +5,7 @@ Historical horse population in Canada
 - <a href="#data" id="toc-data">Data</a>
 - <a href="#methods" id="toc-methods">Methods</a>
 - <a href="#results" id="toc-results">Results</a>
+- <a href="#references" id="toc-references">References</a>
 
 ## Aim
 
@@ -168,7 +169,10 @@ Saskatchewan
 </tbody>
 </table>
 
-Below we zoom in and look at the province of Alberta:
+Below we zoom in and look at the province of British Columbia:
 
 <img src="hist_horse_pop_files/figure-gfm/plot province-1.png" alt="Figure 2. Horse population over th years in the province of Alberta" width="100%" style="display: block; margin: auto;" />
-Figure 2. Horse population over th years in the province of Alberta
+Figure 2. Horse population over the years in the province of British
+Columbia
+
+# References
